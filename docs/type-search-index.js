@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"GameOfLife","l":"boardGen"},{"p":"GameOfLife","l":"GOL"},{"p":"GameOfLife","l":"GOLInfo"},{"p":"GameOfLife","l":"GridParser"},{"p":"GameOfLife","l":"MiniBoard"}]

@@ -1,0 +1,69 @@
+Game Of Life Simulations Manual:
+
+
+Getting Started:
+
+	Start up this simulation by either loading up an initial grid board, or you can press the random button to
+	create one instantly! To load a grid board you can navigate your way through the drop down menu and find the
+	button "Load", you can also press "ctrl" + "L" to open up the file chooser, or finally you can press the load 
+	icon in the upper toolbar. 
+	
+Settings:
+	To reconfigure the default settings for this game, head on over to the settings window. You can do this 
+	by either pressing the "Settings" option in the drop down menu, pressing the settings icon in the toolbar,
+	or by simply pressing "ctrl" + "o" to access the settings window quickly. Once you are there, you now have
+	the option to change your default filename, folder name, the dimensions of the board, the number of ticks you
+	want your simulation to run for, and the colors throughout your game. If you would like the colors you 
+	pressed to be used going forward, make sure you press the "Show" button before saving your preferences and 
+	exiting out of the window. You also have the ability to change the number of threads you would like to run
+	by selecting an option in the drop down selection box. 
+
+Running The Simulation:
+	Once you have your initial board loaded and your preferred settings selected, press the run button in the
+	bottom left corner of the screen. This will generate your entire simulation. To traverse through the ticks,
+	you may press either the left or right button to go forward a tick or backwards. Statistics regarding the 
+	number of alive cells, the number of dead cells, and the difference in the number of alive cells from the
+	previous tick will be presented in the bottom bar as well.
+	
+Saving Your Game:
+	AFTER you have pressed the button to run your simulation, a popup window will appear with saving options.
+	You may save all of the ticks, but you can also save a single tick, a range of ticks, or nothing at all.. 
+		To save all of the ticks:
+			Press the “Save All“ options and press save. Please give your code sometime to compile!
+			
+		To save a single tick:
+			Press the “Save Single“ options, enter the individual tick you’d like to save, and press 
+			save. Please give your code sometime to compile!
+			
+		To save a range of ticks:
+			Press the “Save Range“ options, enter the starting and ending tick for your range that
+			you’d like to save, and press save. Please give your code sometime to compile!
+	
+	**** When you’re simulation is ready, you will see a popup notification saying “You’re boards are ready!”.
+	At that point you may use the bottom arrow keys to move between your first and last board. Please do not
+	use those keys prior to your simulation being completed, as this may cause the program to freeze.*******
+
+
+Loading A Board:
+	As mentioned in the “Getting Started” portion of this manual, you have the option to load in a grid. You
+	must follow a specific format in order for your grid to load in correctly. If you do not upload a file with
+	the correct format, this will cause an error in your program. Below is the format you must use on your files.
+	****** It is also important to note that the number of rows in your loaded grid must equal the number of 
+	columns!!!! ******
+	
+
+	Format:
+			row, col
+			cell, cell, cell, cell, cell
+			cell, cell, cell, cell, cell
+			cell, cell, cell, cell, cell
+			cell, cell, cell, cell, cell
+
+	Example:
+			6, 6
+			1, 0, 0, 1, 0, 0
+			0, 1, 0, 1, 0, 1
+			0, 0, 0, 0, 1, 0
+			1, 0, 1, 1, 0, 0
+			0, 0, 1, 0, 0, 1
+			0, 0, 1, 0, 0, 1
